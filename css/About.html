@@ -49,10 +49,10 @@
         <!-- Right Column -->
         <div class="w3-twothird">
             <div class="w3-section w3-bottombar w3-padding-16">
-                <a href="index.html" style="decoration:none"></a><button class="w3-button w3-black" onclick = homeClick()>HOME</button></a>
-                <a href="" style="decoration:none"><button class="w3-button w3-white"><i class="fa fa-gamepad w3-margin-right"></i>Game</button></a>
+                <a href="index.html" style="decoration:none"><button class="w3-button w3-black" onclick = homeClick()>HOME</button></a>
+                <a href="Game.html" style="decoration:none"><button class="w3-button w3-white"><i class="fa fa-gamepad w3-margin-right"></i>Game</button></a>
                 <a href="" style="decoration:none"><button class="w3-button w3-white w3-hide-small"><i class="fa fa-cog w3-margin-right"></i>Legend</button></a>
-                <a href="" style="decoration:none"><button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>About</button></a>
+                <a href="About.html" style="decoration:none"><button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right" onclick= aboutClick()></i>About</button></a>
             </div>
             <div class="w3-container w3-card w3-white w3-margin-bottom">
                 <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-info fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>About Me</h2>
@@ -111,20 +111,24 @@
             <i class="fa fa-snapchat w3-hover-opacity"></i>
             <i class="fa fa-pinterest-p w3-hover-opacity"></i>
             <i class="fa fa-linkedin w3-hover-opacity"></i>
-            <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+            <p>Template by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
         </footer>
     </div>
 </div>
 <script>
-    //script to click button
+    //script to click HOME button
     function homeClick() {
         document.getElementById("mySidebar").style.display = "block";
         document.getElementById("myOverlay").style.display = "block";
     }
 </script>
-</body>
-</html>
-
-
+<script>
+    //script to click ABOUT button
+    function aboutClick()
+    {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("mySidebar").style.display = "block";
+    }
+</script>
 </body>
 </html>
