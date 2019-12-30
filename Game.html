@@ -1,15 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<head lang="en">
 <meta charset="UTF-8">
 <title>Aksa - Game</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="Style.css">
+<link rel="stylesheet" type="text/css" href="styleSheet.css">
 <style>
     html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
+<script src="Game.js"></script>
+</head>
 
 <body class="w3-light-grey">
 <!-- Page container -->
@@ -50,17 +52,35 @@
                 <a href="" style="decoration:none"><button class="w3-button w3-white w3-hide-small"><i class="fa fa-cog w3-margin-right"></i>Legend</button></a>
                 <a href="About.html" style="decoration:none"><button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>About</button></a>
             </div>
-            <div class="w3-container w3-card w3-white w3-margin-bottom">
+            <div class="w3-card w3-white w3-margin-bottom">
                 <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-gamepad fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Game</h2>
             </div>
+
             <!-- Game Canvas -->
-            <div class="w3-container w3-white">
-                <img id="blue" src="https://www.pinclipart.com/picdir/middle/117-1171869_light-bulb-icon-blue-clipart.png"style="width:10%;" alt="Blue Lightbulb" class="w3-round"/> <img id="red" src="https://www.iconsdb.com/icons/preview/red/light-bulb-2-xxl.png" style="width:11%" alt="Red Lightbulb"/>
+            <div class="w3-container w3-card w3-white w3-margin-bottom w3-third" style="width: 30%">
+                <img id="blue" src="https://www.pinclipart.com/picdir/middle/117-1171869_light-bulb-icon-blue-clipart.png"style="width:40%;" alt="Blue Lightbulb" class="w3-round"/> <img id="red" src="https://www.iconsdb.com/icons/preview/red/light-bulb-2-xxl.png" style="width:44%" alt="Red Lightbulb"/>
                 <br><br>
-                <img id="pink" src="https://www.iconsdb.com/icons/preview/deep-pink/light-bulb-2-xxl.png" style="width:11%;" alt="Pink Lightbulb" class="w3-round"/> <img id="orange" src="https://i.pinimg.com/236x/c2/ec/50/c2ec5019a3fa03add41d58788274b9fb--lightbulbs-logo-ideas.jpg" style="width:11%" alt="Orange Lightbulb"/>
+                <img id="pink" src="https://www.iconsdb.com/icons/preview/deep-pink/light-bulb-2-xxl.png" style="width:44%;" alt="Pink Lightbulb" class="w3-round"/> <img id="orange" src="https://i.pinimg.com/236x/c2/ec/50/c2ec5019a3fa03add41d58788274b9fb--lightbulbs-logo-ideas.jpg" style="width:44%" alt="Orange Lightbulb"/>
                 <br><br>
-                <img id="green" src="https://www.iconsdb.com/icons/preview/green/light-bulb-2-xxl.png" style="width:11%;" alt="Green Lightbulb" class="w3-rounded"/> <img id="purple" src="https://webstockreview.net/images/lightbulb-clipart-purple-1.png" style="width:10%" alt="Purple Lightbulb"/>
+                <img id="green" src="https://www.iconsdb.com/icons/preview/green/light-bulb-2-xxl.png" style="width:44%;" alt="Green Lightbulb" class="w3-rounded"/> <img id="purple" src="https://webstockreview.net/images/lightbulb-clipart-purple-1.png" style="width:44%" alt="Purple Lightbulb"/>
                 <br>
+            </div>
+
+            <div class="w3-card w3-white w3-white w3-margin-bottom w3-twothird" style="width: 70%">
+                <table id="lightGrid">
+                    <tr>
+                        <td class="bg-light" id="1"></td>
+                        <td class="bg-light" id="4"></td>
+                    </tr>
+                    <tr>
+                        <td class="bg-light" id="2"></td>
+                        <td class="bg-light" id="5"></td>
+                    </tr>
+                    <tr>
+                        <td class="bg-light" id="3"></td>
+                        <td class="bg-light" id="6"></td>
+                    </tr>
+                </table>
             </div>
                 <!-- End Main -->
             </div>
