@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
 <title>Aksa - About</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-    </style>
+
+<script src="Other.js"></script>
+</head>
 <body class="w3-light-grey">
 
 <!-- Page container -->
@@ -51,7 +52,7 @@
             <div class="w3-section w3-bottombar w3-padding-16">
                 <a href="index.html" style="decoration:none"><button class="w3-button w3-black" onclick = homeClick()>HOME</button></a>
                 <a href="Game.html" style="decoration:none"><button class="w3-button w3-white"><i class="fa fa-gamepad w3-margin-right"></i>Game</button></a>
-                <a href="" style="decoration:none"><button class="w3-button w3-white w3-hide-small"><i class="fa fa-cog w3-margin-right"></i>Legend</button></a>
+                <a href="Legend.html" style="decoration:none"><button class="w3-button w3-white w3-hide-small"><i class="fa fa-cog w3-margin-right"></i>Legend</button></a>
                 <a href="About.html" style="decoration:none"><button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right" onclick= aboutClick()></i>About</button></a>
             </div>
             <div class="w3-container w3-card w3-white w3-margin-bottom">
@@ -115,20 +116,5 @@
         </footer>
     </div>
 </div>
-<script>
-    //script to click HOME button
-    function homeClick() {
-        document.getElementById("mySidebar").style.display = "block";
-        document.getElementById("myOverlay").style.display = "block";
-    }
-</script>
-<script>
-    //script to click ABOUT button
-    function aboutClick()
-    {
-        document.getElementById("mySidebar").style.display = "block";
-        document.getElementById("mySidebar").style.display = "block";
-    }
-</script>
 </body>
 </html>

@@ -1,29 +1,60 @@
-let dragged; // to keep track of what's being dragged, use this later!
+//variables
+const draggableElements =document.querySelectorAll(".draggable");
+const droppableElements = document.querySelectorAll(".droppable");
 
-function onDragStart(event)
+draggableElements.forEach( elem =>
 {
-    let target = event.target;
-    if (target && target.nodeName === 'IMG')
-    { // If target is an image
-        dragged = target;
-        event.dataTransfer.setData('text', target.id);
-        event.dataTransfer.dropEffect = 'move';
-        // Make it half transparent
-        event.target.style.opacity = .3;
+    elem("dragstart", dragStart);
+})
+
+droppableElements.forEach(elem =>
+{
+    elem.addEventListener("dragenter", dragEnter);
+    elem.addEventListener("dragover", dragOver);
+    elem.addEventListener("dragleave", dragLeave);
+    elem.addEventListener("drop", drop);
+})
+
+//drag and drop functions
+function dragStart(event)
+{
+   event.dataTransfer.setData("text", event.target.id);
+}
+
+function dragEnter(event)
+{
+    if(!event.target.classList.contains("dropped")) {
+        event.target.classList.add("droppable-hover");
     }
 }
 
-function onDragEnd(event)
+function dragOver(event)
 {
-    if (event.target && event.target.nodeName === 'IMG')
+    event.preventDefault();
+}
+
+function dragLeave(event)
+{
+    if(!event.target.classList.contains("dropped")) {
+        event.target.classList.remove("droppable-hover");
+    }
+}
+
+function drop(event)
+{
+    event.preventDefault();
+    const draggableElementsData = event.dataTransfer.getData("text");
+    event.target.classList.remove("droppable-hover");
+    const draggableElementData = event.dataTransfer.getData("text"); // Get the dragged data. This method will return any data that was set to the same type in the setData() method
+    const droppableElementData = event.target.getAttribute("data-draggable-id");
+    const isCorrectMatching = draggableElementData === droppableElementData;
+    if(isCorrectMatching)
     {
-        // Reset the transparency
-        event.target.style.opacity = ''; // reset opacity when drag ends
-        dragged = null;
+        const draggableElement = document.getElementById(draggableElementData);
+        event.target.classList.add("dropped");
+        // event.target.style.backgroundColor = draggableElement.style.color; // This approach works only for inline styles. A more general approach would be the following:
+        event.target.style.backgroundColor = window.getComputedStyle(draggableElement).color;
+        draggableElement.classList.add("dragged");
+        draggableElement.setAttribute("draggable", "false");
     }
 }
-
-// Adding event listeners
-const vehicles = document.querySelector('.vehicles');
-vehicles.addEventListener('dragstart', onDragStart);
-vehicles.addEventListener('dragend', onDragEnd);

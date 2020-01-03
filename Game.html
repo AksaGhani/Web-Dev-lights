@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<head lang="en">
+<html lang="en">
+<head>
 <meta charset="UTF-8">
 <title>Aksa - Game</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,10 +8,9 @@
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="styleSheet.css">
-<style>
-    html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-</style>
-<script src="Game.js"></script>
+
+    <script src="Game.js" defer></script>
+    <script src="Other.js"></script>
 </head>
 
 <body class="w3-light-grey">
@@ -49,7 +49,7 @@
             <div class="w3-section w3-bottombar w3-padding-16">
                 <a href="index.html" style="decoration:none"><button class="w3-button w3-black" onclick = homeClick()>HOME</button></a>
                 <a href="Game.html" style="decoration:none"><button class="w3-button w3-white"><i class="fa fa-gamepad w3-margin-right"></i>Game</button></a>
-                <a href="" style="decoration:none"><button class="w3-button w3-white w3-hide-small"><i class="fa fa-cog w3-margin-right"></i>Legend</button></a>
+                <a href="Legend.html" style="decoration:none"><button class="w3-button w3-white w3-hide-small"><i class="fa fa-cog w3-margin-right"></i>Legend</button></a>
                 <a href="About.html" style="decoration:none"><button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>About</button></a>
             </div>
             <div class="w3-card w3-white w3-margin-bottom">
@@ -57,31 +57,39 @@
             </div>
 
             <!-- Game Canvas -->
-            <div class="w3-container w3-card w3-white w3-margin-bottom w3-third" style="width: 30%">
-                <img id="blue" src="https://www.pinclipart.com/picdir/middle/117-1171869_light-bulb-icon-blue-clipart.png"style="width:40%;" alt="Blue Lightbulb" class="w3-round"/> <img id="red" src="https://www.iconsdb.com/icons/preview/red/light-bulb-2-xxl.png" style="width:44%" alt="Red Lightbulb"/>
+            <div class="w3-container w3-card w3-white w3-margin-bottom ">
+                <br>
+                <button class="w3-button w3-black" >GO</button> <button class="w3-button w3-teal">Reset Game</button>
                 <br><br>
-                <img id="pink" src="https://www.iconsdb.com/icons/preview/deep-pink/light-bulb-2-xxl.png" style="width:44%;" alt="Pink Lightbulb" class="w3-round"/> <img id="orange" src="https://i.pinimg.com/236x/c2/ec/50/c2ec5019a3fa03add41d58788274b9fb--lightbulbs-logo-ideas.jpg" style="width:44%" alt="Orange Lightbulb"/>
+            </div>
+            <section class="draggable-elements">
+            <div class="w3-container w3-card w3-white w3-margin-bottom w3-third" style="width:30%">
+                <img id="blue" class="draggable centre w3-round" src="https://www.pinclipart.com/picdir/middle/117-1171869_light-bulb-icon-blue-clipart.png" draggable="true" ondragstart="drag(event)" style="width:40%;" alt="Blue Lightbulb" />
                 <br><br>
-                <img id="green" src="https://www.iconsdb.com/icons/preview/green/light-bulb-2-xxl.png" style="width:44%;" alt="Green Lightbulb" class="w3-rounded"/> <img id="purple" src="https://webstockreview.net/images/lightbulb-clipart-purple-1.png" style="width:44%" alt="Purple Lightbulb"/>
+                <img id="pink" class="draggable centre w3-round" src="https://www.iconsdb.com/icons/preview/deep-pink/light-bulb-2-xxl.png" draggable="true"  ondragstart="drag(event)" style="width:44%;" alt="Pink Lightbulb" />
+                <br><br>
+                <img id="green" class="draggable centre w3-round" src="https://www.iconsdb.com/icons/preview/green/light-bulb-2-xxl.png" draggable="true" ondragstart="drag(event)" style="width:44%;" alt="Green Lightbulb" />
                 <br>
             </div>
+                <!--Right column Light bulbs -->
+                <div class="w3-container w3-card w3-white w3-margin-bottom w3-third" style="width:30%">
+                    <br>
+                    <img id="red" class="draggable centre w3-round" src="https://www.iconsdb.com/icons/preview/red/light-bulb-2-xxl.png" draggable="true" ondragstart="drag(event)" style="width:44%" alt="Red Lightbulb"/>
+                    <br><br>
+                    <img id="orange" class="draggable centre w3-round" src="https://i.pinimg.com/236x/c2/ec/50/c2ec5019a3fa03add41d58788274b9fb--lightbulbs-logo-ideas.jpg" draggable="true" ondragstart="drag(event)" style="width:44%" alt="Orange Lightbulb"/>
+                    <br><br>
+                    <img id="purple" class="draggable centre w3-round" src="https://webstockreview.net/images/lightbulb-clipart-purple-1.png" draggable="true" ondragstart="drag(event)" style="width:44%" alt="Purple Lightbulb"/>
+                    <br>
+                </div>
+            </section>
 
-            <div class="w3-card w3-white w3-white w3-margin-bottom w3-twothird" style="width: 70%">
-                <table id="lightGrid">
-                    <tr>
-                        <td class="bg-light" id="1"></td>
-                        <td class="bg-light" id="4"></td>
-                    </tr>
-                    <tr>
-                        <td class="bg-light" id="2"></td>
-                        <td class="bg-light" id="5"></td>
-                    </tr>
-                    <tr>
-                        <td class="bg-light" id="3"></td>
-                        <td class="bg-light" id="6"></td>
-                    </tr>
-                </table>
+            <section class="droppable-elements">
+            <div class=" w3-card w3-white w3-white w3-margin-bottom w3-third" style="width:40%">
+                <div id="1" class="droppable"><span>1</span></div>
+                <div id="2" class="droppable"><span>2</span></div>
+                <div id="3" class="droppable"><span>3</span></div>
             </div>
+            </section>
                 <!-- End Main -->
             </div>
                 <!-- End Grid -->
@@ -99,25 +107,6 @@
         </footer>
     </div>
 </div>
-<script>
-    //script to click HOME button
-    function homeClick() {
-        document.getElementById("mySidebar").style.display = "block";
-        document.getElementById("myOverlay").style.display = "block";
-    }
-</script>
-<script>
-    // Script to open and close sidebar
-    function w3_open() {
-        document.getElementById("mySidebar").style.display = "block";
-        document.getElementById("myOverlay").style.display = "block";
-    }
-
-    function w3_close() {
-        document.getElementById("mySidebar").style.display = "none";
-        document.getElementById("myOverlay").style.display = "none";
-    }
-</script>
 </body>
 </html>
 

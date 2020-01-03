@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Aksa - Home Page</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script
-            src="https://code.jquery.com/jquery-3.4.1.min.js"
-            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-            crossorigin="anonymous">
-    </script>
+    <meta charset="UTF-8">
+    <title>Aksa - Legend</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="styleSheet.css">
+    <script src="Game.js" defer></script>
     <script src="Other.js"></script>
 </head>
 
-<div class="w3-light-grey">
-<!-- Page Container -->
+<body class="w3-light-grey">
+<!-- Page container -->
 <div class="w3-content w3-margin-top" style="max-width:1400px;">
+    <!-- Grid -->
+    <div class="w3-row-padding">
 
         <!-- Sidebar/menu -->
         <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3; width:300px;" id="mySidebar"><br>
@@ -43,39 +40,47 @@
                 <i class="fa fa-linkedin w3-hover-opacity"></i>
             </div>
         </nav>
-
         <!-- Overlay effect when opening sidebar on small screens -->
         <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
-        <!-- Main-->
-        <div class="w3-main" style="margin-left:305px">
+        <!-- Main -->
+        <div class="w3-main" style="margin-left: 305px">
             <div class="w3-section w3-bottombar w3-padding-16">
-                <a href="index.html" style="decoration:none"></a><button class="w3-button w3-black" onclick = homeClick()>HOME</button></a>
+                <a href="index.html" style="decoration:none"><button class="w3-button w3-black" onclick = homeClick()>HOME</button></a>
                 <a href="Game.html" style="decoration:none"><button class="w3-button w3-white"><i class="fa fa-gamepad w3-margin-right"></i>Game</button></a>
                 <a href="Legend.html" style="decoration:none"><button class="w3-button w3-white w3-hide-small"><i class="fa fa-cog w3-margin-right"></i>Legend</button></a>
                 <a href="About.html" style="decoration:none"><button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>About</button></a>
             </div>
-            <div class="w3-container w3-card w3-white w3-margin-bottom">
-                <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-info fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Home Page</h2>
-                <div class="w3-container">
-                    <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-teal w3-round">Current</span></h6>
-                    <p> I am currently studying Computer Science at the University of Plymouth. As an individual new to the world of computing, I thoroughly enjoy the challenge each new project brings.</p>
-                    <hr>
-               </div>
+            <div class="w3-card w3-white w3-margin-bottom">
+                <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-cog fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Legend</h2>
             </div>
-        <!-- End Main -->
+            <div class="w3-container w3-card w3-white w3-margin-bottom">
+                <h3>How To Play</h3>
+                <p>The aim of the game is to match the light bulbs to the light sequence shown in SMB109</p>
+                <ol>
+                    <li>First press the Go button in order to produce a light sequence</li>
+                    <li>You must remember the sequence of colours that is produced</li>
+                    <li>Then place the coloured light bulbs in the order the sequence showed</li>
+                </ol>
+            </div>
+
+            <!-- End Main -->
         </div>
         <!-- End Grid -->
     </div>
+    <!-- End Page Container -->
 </div>
-      <footer class="w3-container w3-teal w3-center w3-margin-top">
-        <p>Find me on social media.</p>
-        <i class="fa fa-instagram w3-hover-opacity"></i>
-        <i class="fa fa-snapchat w3-hover-opacity"></i>
-        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-        <i class="fa fa-linkedin w3-hover-opacity"></i>
-        <p>Template by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-      </footer>
+
+<footer class="w3-container w3-teal w3-center w3-margin-top">
+    <p>Find me on social media.</p>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p>Template by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+</footer>
+</div>
+</div>
 
 </body>
 </html>
