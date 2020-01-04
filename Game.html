@@ -8,9 +8,13 @@
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="styleSheet.css">
-
+<!-- jquery links for drag and drop functions-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+<!-- my script files -->
     <script src="Game.js" defer></script>
     <script src="Other.js"></script>
+    <script src="Lights.js"></script>
 </head>
 
 <body class="w3-light-grey">
@@ -57,38 +61,30 @@
             </div>
 
             <!-- Game Canvas -->
-            <div class="w3-container w3-card w3-white w3-margin-bottom ">
+            <div class="w3-container w3-card w3-white w3-margin-bottom">
                 <br>
-                <button class="w3-button w3-black" >GO</button> <button class="w3-button w3-teal">Reset Game</button>
+                <button onclick="changeColours(element)" id="goBtn" class="w3-button w3-black" >GO</button> <a href="Game.html" style="decoration:none"><button id="resetBtn" class="w3-button w3-teal">Reset Game</button></a>
                 <br><br>
             </div>
             <section class="draggable-elements">
             <div class="w3-container w3-card w3-white w3-margin-bottom w3-third" style="width:30%">
-                <img id="blue" class="draggable centre w3-round" src="https://www.pinclipart.com/picdir/middle/117-1171869_light-bulb-icon-blue-clipart.png" draggable="true" ondragstart="drag(event)" style="width:40%;" alt="Blue Lightbulb" />
+                <img id="blue" onclick="blueLight(lightId1)" class="draggable centre w3-round" src="https://www.pinclipart.com/picdir/middle/117-1171869_light-bulb-icon-blue-clipart.png" draggable="true" ondragstart="drag(event)" style="width:40%;" alt="Blue Lightbulb" />
                 <br><br>
-                <img id="pink" class="draggable centre w3-round" src="https://www.iconsdb.com/icons/preview/deep-pink/light-bulb-2-xxl.png" draggable="true"  ondragstart="drag(event)" style="width:44%;" alt="Pink Lightbulb" />
+                <img id="pink" onclick="" class="draggable centre w3-round" src="https://www.iconsdb.com/icons/preview/deep-pink/light-bulb-2-xxl.png" draggable="true"  ondragstart="drag(event)" style="width:44%;" alt="Pink Lightbulb" />
                 <br><br>
-                <img id="green" class="draggable centre w3-round" src="https://www.iconsdb.com/icons/preview/green/light-bulb-2-xxl.png" draggable="true" ondragstart="drag(event)" style="width:44%;" alt="Green Lightbulb" />
+                <img id="green" onclick="greenLight(lightId2)" class="draggable centre w3-round" src="https://www.iconsdb.com/icons/preview/green/light-bulb-2-xxl.png" draggable="true" ondragstart="drag(event)" style="width:44%;" alt="Green Lightbulb" />
                 <br>
             </div>
                 <!--Right column Light bulbs -->
                 <div class="w3-container w3-card w3-white w3-margin-bottom w3-third" style="width:30%">
                     <br>
-                    <img id="red" class="draggable centre w3-round" src="https://www.iconsdb.com/icons/preview/red/light-bulb-2-xxl.png" draggable="true" ondragstart="drag(event)" style="width:44%" alt="Red Lightbulb"/>
+                    <img id="red" class="draggable centre w3-round" src="https://www.iconsdb.com/icons/preview/red/light-bulb-2-xxl.png" draggable="false" style="width:44%" alt="Red Lightbulb"/>
                     <br><br>
-                    <img id="orange" class="draggable centre w3-round" src="https://i.pinimg.com/236x/c2/ec/50/c2ec5019a3fa03add41d58788274b9fb--lightbulbs-logo-ideas.jpg" draggable="true" ondragstart="drag(event)" style="width:44%" alt="Orange Lightbulb"/>
+                    <img id="orange" class="draggable centre w3-round" src="https://i.pinimg.com/236x/c2/ec/50/c2ec5019a3fa03add41d58788274b9fb--lightbulbs-logo-ideas.jpg" draggable="false" style="width:44%" alt="Orange Lightbulb"/>
                     <br><br>
-                    <img id="purple" class="draggable centre w3-round" src="https://webstockreview.net/images/lightbulb-clipart-purple-1.png" draggable="true" ondragstart="drag(event)" style="width:44%" alt="Purple Lightbulb"/>
+                    <img id="purple" class="draggable centre w3-round" src="https://webstockreview.net/images/lightbulb-clipart-purple-1.png" draggable="false" style="width:44%" alt="Purple Lightbulb"/>
                     <br>
                 </div>
-            </section>
-
-            <section class="droppable-elements">
-            <div class=" w3-card w3-white w3-white w3-margin-bottom w3-third" style="width:40%">
-                <div id="1" class="droppable"><span>1</span></div>
-                <div id="2" class="droppable"><span>2</span></div>
-                <div id="3" class="droppable"><span>3</span></div>
-            </div>
             </section>
                 <!-- End Main -->
             </div>

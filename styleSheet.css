@@ -1,5 +1,9 @@
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-
+.centre
+{
+    margin-left:auto;
+    margin-right:auto;
+}
 .draggable
 {
     display:flex;
@@ -14,7 +18,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
    opacity:0.5;
 }
 
-.droppable
+.standardDiv
 {
     height:9.5rem;
     width:9.5rem;
@@ -31,33 +35,110 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     transition:border-width 0.2s, transform 0.2s, background-color 0.2s;
 }
 
-.droppable span
+.blueDiv
+{
+    height:9.5rem;
+    width:9.5rem;
+    margin: 1rem auto;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: lightskyblue;
+    border:3px dashed #111;
+    transition:border-width 0.2s, transform 0.2s, background-color 0.2s;
+}
+
+.redDiv
+{
+    height:9.5rem;
+    width:9.5rem;
+    margin: 1rem auto;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: indianred;
+    border:3px dashed #111;
+    transition:border-width 0.2s, transform 0.2s, background-color 0.2s;
+}
+
+.greenDiv
+{
+    height:9.5rem;
+    width:9.5rem;
+    margin: 1rem auto;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: lightgreen;
+    border:3px dashed #111;
+    transition:border-width 0.2s, transform 0.2s, background-color 0.2s;
+}
+.purpleDiv
+{
+    height:9.5rem;
+    width:9.5rem;
+    margin: 1rem auto;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: purple;
+    border:3px dashed #111;
+    transition:border-width 0.2s, transform 0.2s, background-color 0.2s;
+}
+.orangeDiv
+{
+    height:9.5rem;
+    width:9.5rem;
+    margin: 1rem auto;
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: orange;
+    border:3px dashed #111;
+    transition:border-width 0.2s, transform 0.2s, background-color 0.2s;
+}
+
+.standardDiv span
 {
     pointer-events: none;
 }
 
-.centre
-{
-    margin-left:auto;
-    margin-right:auto;
-}
 /* drag and drop related styling */
-.droppable.droppable-hover
+.dropZone-hover
 {
     border-width:5px;
     transform:scale(1.1);
 }
-
-.droppable.dropped
+.dropped
 {
    border-style:solid;
 }
-
-.draggable.dragged {
+.dragged
+{
     user-select: none;
     opacity: 0.1;
     cursor: default;
 }
-.draggable.dragged:hover {
+.dragged:hover {
     opacity: 0.1;
 }
