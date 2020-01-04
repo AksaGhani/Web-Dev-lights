@@ -1,2 +1,3 @@
-# Web-Dev---lights-
+# Web-Development-Lights-Game
 Comp-sci assignment
+
