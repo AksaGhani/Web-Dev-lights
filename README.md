@@ -59,9 +59,11 @@ LEGEND
 ---
 ### Testing Web Accessibility 
 <p>I have done research on web accessibility and using the following resources: </p>
+
 * https://www.w3.org/WAI/ 
 * https://webaccess.berkeley.edu/resources/tips/web-accessibility
 * https://blog.jetbrains.com/webstorm/2018/12/accessibility-features-in-webstorm-2018-3/ 
+
 <p> I was able to come up with a good understanding of what Web Accessibility is as a concept. In order to check My website's current web accessibility I could use the Free 508 Checker:</p>
 http://www.508checker.com/ 
 <p> However, in order for this to work you would need to have a website which is up and running, therefore, I was unable to test the web accesibility of my application as it is still in the creation stage. </p>
