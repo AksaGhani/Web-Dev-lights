@@ -4,7 +4,7 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     margin-left:auto;
     margin-right:auto;
 }
-.draggable
+.clickable
 {
     display:flex;
     justify-content: left;
@@ -31,89 +31,6 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     font-size: xx-large;
     font-weight: bold;
     background-color: lightgray;
-    border:3px dashed #111;
-    transition:border-width 0.2s, transform 0.2s, background-color 0.2s;
-}
-
-.blueDiv
-{
-    height:9.5rem;
-    width:9.5rem;
-    margin: 1rem auto;
-    display:flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    text-align: center;
-    font-size: xx-large;
-    font-weight: bold;
-    background-color: lightskyblue;
-    border:3px dashed #111;
-    transition:border-width 0.2s, transform 0.2s, background-color 0.2s;
-}
-
-.redDiv
-{
-    height:9.5rem;
-    width:9.5rem;
-    margin: 1rem auto;
-    display:flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    text-align: center;
-    font-size: xx-large;
-    font-weight: bold;
-    background-color: indianred;
-    border:3px dashed #111;
-    transition:border-width 0.2s, transform 0.2s, background-color 0.2s;
-}
-
-.greenDiv
-{
-    height:9.5rem;
-    width:9.5rem;
-    margin: 1rem auto;
-    display:flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    text-align: center;
-    font-size: xx-large;
-    font-weight: bold;
-    background-color: lightgreen;
-    border:3px dashed #111;
-    transition:border-width 0.2s, transform 0.2s, background-color 0.2s;
-}
-.purpleDiv
-{
-    height:9.5rem;
-    width:9.5rem;
-    margin: 1rem auto;
-    display:flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    text-align: center;
-    font-size: xx-large;
-    font-weight: bold;
-    background-color: purple;
-    border:3px dashed #111;
-    transition:border-width 0.2s, transform 0.2s, background-color 0.2s;
-}
-.orangeDiv
-{
-    height:9.5rem;
-    width:9.5rem;
-    margin: 1rem auto;
-    display:flex;
-    justify-content: center;
-    align-content: center;
-    flex-direction: column;
-    text-align: center;
-    font-size: xx-large;
-    font-weight: bold;
-    background-color: orange;
     border:3px dashed #111;
     transition:border-width 0.2s, transform 0.2s, background-color 0.2s;
 }

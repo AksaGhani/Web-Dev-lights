@@ -25,16 +25,13 @@ function allLightsColoured()
 function lightSequence()
 {
 // get first light colour
-    greenLight(lightId1);
+   redLight(lightId1);
 
 //get second light colour
-    redLight(lightId2);
+   yellowLight(lightId2);
 
 //get third light colour
-    blueLight(lightId3);
-
-    //get fourth light colour
-    yellowLight(lightId4);
+   greenLight(lightId3);
 }
 
 //different light colours
@@ -47,7 +44,6 @@ function greenLight(element)
             data: JSON.stringify(lightState)}
         )
 }
-
 function redLight(element) {
     let lightState = {"on": true, "hue": 65533, "bri": 254, "sat": 150};
     $.ajax({
@@ -57,7 +53,6 @@ function redLight(element) {
         }
     )
 }
-
 function pinkLight(element) {
     let lightState = {"on": true, "hue": 56100, "bri": 254, "sat": 100};
     $.ajax({
@@ -98,6 +93,28 @@ function purpleLight(element)
         data: JSON.stringify(lightState)}
     )
 }
+
+//check if all colours match sequence
+function checkColourRed(element)
+{
+    let getState = $.getJSON(getLightURI(element), function (data)
+    {
+        let hue = data["hue"]["65533"];
+        if (hue)
+        {
+            hue = true;
+        }
+
+        let lightState = {"on" : hue};
+
+        $.ajax({
+            url: getLightURI(element) + "state/",
+            type: "PUT",
+            data: JSON.stringify(lightState)
+        })
+    });
+}
+
 //get lights method: Using Shirley's code which has been adjusted
 function getLightURI(element)
 {

@@ -64,27 +64,27 @@
             <!-- Game Buttons -->
             <div class="w3-container w3-card w3-white w3-margin-bottom">
                 <br>
-                <button onclick="changeColours(element)" id="goBtn" class="w3-button w3-black w3-xlarge">GO</button> <button id="submitBtn" class="w3-button w3-teal w3-xlarge">SUBMIT</button> <a href="Game.html" style="decoration:none"><button id="resetBtn" class="w3-button w3-grey w3-xlarge">Reset Game</button></a>
+                <button onclick="lightSequence()" id="goBtn" class="w3-button w3-black w3-xlarge">GO</button> <button id="submitBtn" class="w3-button w3-teal w3-xlarge">SUBMIT</button> <a href="Game.html" style="decoration:none"><button id="resetBtn" class="w3-button w3-grey w3-xlarge">Reset Game</button></a>
                 <br><br>
             </div>
             <section class="draggable-elements">
                 <!-- left column Light bulbs -->
             <div class="w3-container w3-white w3-margin-bottom w3-third" style="width:30%">
-                <img id="blue" onclick="blueLight(lightId1)" class="draggable centre w3-round" src="https://www.pinclipart.com/picdir/middle/117-1171869_light-bulb-icon-blue-clipart.png" draggable="true" style="width:40%;" alt="Blue Lightbulb" />
+                <img id="blue" onclick="blueLight(lightId1)" class="clickable centre w3-round" src="https://www.pinclipart.com/picdir/middle/117-1171869_light-bulb-icon-blue-clipart.png" draggable="true" style="width:40%;" alt="Blue Light-bulb" />
                 <br><br>
-                <img id="pink" onclick="pinkLight(lightId2)" class="draggable centre w3-round" src="https://www.iconsdb.com/icons/preview/deep-pink/light-bulb-2-xxl.png" draggable="true" style="width:44%;" alt="Pink Lightbulb" />
+                <img id="pink" onclick="pinkLight(lightId2)" class="clickable centre w3-round" src="https://www.iconsdb.com/icons/preview/deep-pink/light-bulb-2-xxl.png" draggable="true" style="width:44%;" alt="Pink Light-bulb" />
                 <br><br>
-                <img id="green" onclick="greenLight(lightId3)" class="draggable centre w3-round" src="https://www.iconsdb.com/icons/preview/green/light-bulb-2-xxl.png" draggable="true"  style="width:44%;" alt="Green Lightbulb" />
+                <img id="green" onclick="greenLight(lightId3)" class="clickable centre w3-round" src="https://www.iconsdb.com/icons/preview/green/light-bulb-2-xxl.png" draggable="true"  style="width:44%;" alt="Green Light-bulb" />
                 <br>
             </div>
                 <!--Right column Light bulbs -->
                 <div class="w3-container w3-white w3-margin-bottom w3-third" style="width:30%">
                     <br>
-                    <img id="red" onclick="redLight(lightId1)" class="draggable centre w3-round" src="https://www.iconsdb.com/icons/preview/red/light-bulb-2-xxl.png" draggable="false" style="width:44%" alt="Red Lightbulb"/>
+                    <img id="red" onclick="redLight(lightId1)" class="clickable centre w3-round" src="https://www.iconsdb.com/icons/preview/red/light-bulb-2-xxl.png" draggable="false" style="width:44%" alt="Red Light-bulb"/>
                     <br><br>
-                    <img id="orange" onclick="yellowLight(lightId2)" class="draggable centre w3-round" src="https://i.pinimg.com/236x/c2/ec/50/c2ec5019a3fa03add41d58788274b9fb--lightbulbs-logo-ideas.jpg" draggable="false" style="width:44%" alt="Orange Lightbulb"/>
+                    <img id="orange" onclick="yellowLight(lightId2)" class="clickable centre w3-round" src="https://i.pinimg.com/236x/c2/ec/50/c2ec5019a3fa03add41d58788274b9fb--lightbulbs-logo-ideas.jpg" draggable="false" style="width:44%" alt="Orange Light-bulb"/>
                     <br><br>
-                    <img id="purple" class="draggable centre w3-round" src="https://webstockreview.net/images/lightbulb-clipart-purple-1.png" draggable="false" style="width:44%" alt="Purple Lightbulb"/>
+                    <img id="purple" onclick="purpleLight(lightId3)" class="clickable centre w3-round" src="https://webstockreview.net/images/lightbulb-clipart-purple-1.png" draggable="false" style="width:44%" alt="Purple Light-bulb"/>
                     <br>
                 </div>
             </section>
