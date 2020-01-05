@@ -8,18 +8,24 @@
 ---
 ### **ScreenShots:**
 ##### These Screenshots show all of the pages in Full.
-HOME PAGE
-![Home Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/HomePage.png "Home Page")
-ABOUT PAGE
-![About Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/AboutPage%20FirstHalf.png "About Page 1")
 
+### HOME PAGE
+![Home Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/HomePage.png "Home Page")
+
+### ABOUT PAGE
+![About Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/AboutPage%20FirstHalf.png "About Page 1")
 ![About Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/AboutPage%20SecondHalf.png "About Page 2")
-GAME PAGE
+
+### GAME PAGE
 ![Game Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/GamePage.png "Game Page")
+
 If you were to scroll down... the rest of the light-bulbs would appear, giving a larger range of colours for the user to select from.
-LEGEND
+
+### LEGEND
 ![Legend Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/LegendPage.png "Legend Page")
+
 ---
+
 ### **Application Fact Sheet:**
  The application is very simple to use and contains features to make navigation within the website easier for the user. The aim of this project is to act as a sample web application where the user is able to visit the four main pages: Home, About, Game and Legend.
 
