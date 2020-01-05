@@ -16,6 +16,7 @@
 
 ![Game Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/GamePage.png "Game Page")
 
+![Legend Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/LegendPage.png "Legend Page")
 ---
 ### **Application Fact Sheet:**
 ##### The application is very simple to use and contains features to make navigation within the website easier for the user. The aim of this project is to act as a sample web application where the user is able to visit the four main pages: Home, About, Game and Legend.
@@ -34,6 +35,7 @@
 
 ##### 2. The Buttons 
 ###### Each page has a similar layout with buttons to act as a navigation bar such as the 'Home' Button, without this functionality the application would not have access to other pages. Therefore, suggesting that any 
+![Navigation Bar]( "Navigation Bar")
 
 ##### 3. The Footer
 ######  The footer contains all of my contact details, and allows the user to have access to all of my contact information from any page within the application. However, I have only added the icons to indicate that the socials can be found on the home page.  
