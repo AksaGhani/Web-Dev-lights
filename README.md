@@ -30,6 +30,9 @@ LEGEND
 #### **Game Features:**
 ##### Next to the About button you will find the GAME button, the redirected page will be where the game itslef is located. The main features on this page include the images of light-bulbs which are clickable, as well as the GO, SUBMIT and RESET buttons. The aim of the Game is that the player presses GO, which in turn will present a light sequence in the SMB lab. Once the lights have all turned off the player must click on the correct coloured light-bulbs provided in order to turn the light on the lights in the correct sequence. The player must then click the SUBMIT button in order to see whether they have got it correct or not.
 
+##### I have also added a warning section to the Game page as it is important to ensure that no harm comes to any of the users whilst playing the game. For example, the warning is for people who may suffer from photosensitive epilepsy, which suggests that epileptic fits may be caused through flashing lights and colours.
+![Warning]( "Warning")
+
 #### Key Features of the Web Application:
 ##### 1. The Legend Page
 ###### This page is a very important asset to the web application as it explains how the player must play the game, giving a key of what all of the elements within the page mean. 
