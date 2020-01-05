@@ -31,6 +31,7 @@ LEGEND
 <p> Next to the About button you will find the GAME button, the redirected page will be where the game itslef is located. The main features on this page include the images of light-bulbs which are clickable, as well as the GO, SUBMIT and RESET buttons. The aim of the Game is that the player presses GO, which in turn will present a light sequence in the SMB lab. Once the lights have all turned off the player must click on the correct coloured light-bulbs provided in order to turn the light on the lights in the correct sequence. The player must then click the SUBMIT button in order to see whether they have got it correct or not.</p>
 
 <p> I have also added a warning section to the Game page as it is important to ensure that no harm comes to any of the users whilst playing the game. For example, the warning is for people who may suffer from photosensitive epilepsy, which suggests that epileptic fits may be caused through flashing lights and colours.</p>
+
 ![Warning](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/EpilepsyWarning.png "Warning Message")
 
 #### Key Features of the Web Application:
@@ -39,6 +40,7 @@ LEGEND
 
 #### 2. The Buttons 
 <p> Each page has a similar layout with buttons to act as a navigation bar such as the 'Home' Button, without this functionality the application would not have access to other pages. Below is a screenshot of the buttons and how I have laid them out at the top of the page, this structure is replicated throughout the application.</p>
+
 ![Navigation Bar](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/NavigationBar.png "Navigation Bar")
 
 #### 3. The Footer
@@ -49,7 +51,9 @@ LEGEND
 ---
 ### Testing in Different Browsers
 <p>The two browsers I chose to test my web application in were Chrome (as shown in all previous screenshots), but to ensure that my website was compatible with more than one browser I then went ahead and checked what my website looked like in Edge.</p>
+
 ![Home Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/HomePageEdge.png "Home Page - Edge")
+
 <p> As you can see when the website was opened in Edge, the results were the same as when it was opened in Chrome. I was very pleased with the outcome, as it suggested that there were no bugs which may have needed my attention in order to fix them.</p>
 
 ---
