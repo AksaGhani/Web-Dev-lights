@@ -1,4 +1,4 @@
-# Web-Development-Lights-Game
+# Web Development Lights Game
 ## Comp-sci assignment
 ---
 ### **YouTube Video:**
@@ -7,7 +7,7 @@
 
 ---
 ### **ScreenShots:**
-
+##### These Screenshots show all of the pages at large.
 
 
 ---
@@ -15,7 +15,9 @@
 ##### The application is very simple to use and contains features to make navigation within the website easier for the user. The aim of this project is to act as a sample web application where the user is able to visit the four main pages: Home, About, Game and Legend.
 #### How does the Application work?
 ##### The home page contains a brief explantion as to what the project is and contains my contact information. This page acts as welcome page and introduces the application, it has all the features such as navigation bar and sidebar to allow the user to click onto other pages within the application.
-##### When the About button is clicked the user is redirected to the About page, where there is in depth information about me, including my levels of experience in coding languages(c# and Javascript). 
+##### When the ABOUT button is clicked the user is redirected to the About page, where there is in depth information about me, including my levels of experience in coding languages(c# and Javascript). The About page includes my past education up till now. 
+#### Game Features
+##### Next to the About button you will find the GAME button, the redirected page will be where the game itslef is located. The main features on this page include the images of light-bulbs which are clickable, as well as the GO and RESET buttons. 
 #### Key Features of the Web Application
 ##### 1. The Legend Page
 ###### This page is a very important asset to the web application as it explains how the player must play the game, giving a key of what all of the elements within the page mean. 
