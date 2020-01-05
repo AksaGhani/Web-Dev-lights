@@ -9,8 +9,12 @@
 ### **ScreenShots:**
 ##### These Screenshots show all of the pages in Full.
 ![Home Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/HomePage.png "Home Page")
-<br>
-![About Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/AboutPage%20FirstHalf.png "About Page1")
+
+![About Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/AboutPage%20FirstHalf.png "About Page 1")
+
+![About Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/AboutPage%20SecondHalf.png "About Page 2")
+
+![Game Page]( "Game Page")
 ---
 ### **Application Fact Sheet:**
 ##### The application is very simple to use and contains features to make navigation within the website easier for the user. The aim of this project is to act as a sample web application where the user is able to visit the four main pages: Home, About, Game and Legend.
