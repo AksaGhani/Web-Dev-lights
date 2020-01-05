@@ -58,7 +58,7 @@ LEGEND
 
 ---
 ### Testing Web Accessibility 
-<p>I have done research on web accessibility and using the following resources: </p>
+<p>I have done research on web accessibility using the following resources: </p>
 
 * https://www.w3.org/WAI/ 
 * https://webaccess.berkeley.edu/resources/tips/web-accessibility
