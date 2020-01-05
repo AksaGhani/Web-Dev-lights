@@ -20,7 +20,7 @@
 ##### When the ABOUT button is clicked the user is redirected to the About page, where there is in depth information about me, including my levels of experience in coding languages(c# and Javascript). The About page includes my past education up till now. 
 
 #### **Game Features**
-##### Next to the About button you will find the GAME button, the redirected page will be where the game itslef is located. The main features on this page include the images of light-bulbs which are clickable, as well as the GO and RESET buttons. 
+##### Next to the About button you will find the GAME button, the redirected page will be where the game itslef is located. The main features on this page include the images of light-bulbs which are clickable, as well as the GO, SUBMIT and RESET buttons. The aim of the Game is that the player presses GO, which in turn will present a light sequence in the SMB lab. Once the lights have all turned off the player must click on the correct coloured light-bulbs provided in order to turn the light on the lights in the correct sequence. The player must then click the SUBMIT button in order to see whether they have got it correct or not.
 
 #### Key Features of the Web Application:
 ##### 1. The Legend Page
