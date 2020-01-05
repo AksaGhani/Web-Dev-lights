@@ -16,6 +16,7 @@ ABOUT PAGE
 ![About Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/AboutPage%20SecondHalf.png "About Page 2")
 GAME PAGE
 ![Game Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/GamePage.png "Game Page")
+If you were to scroll down... the rest of the light-bulbs would appear, giving a larger range of colours for the user to select from.
 LEGEND
 ![Legend Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/LegendPage.png "Legend Page")
 ---
@@ -48,7 +49,9 @@ LEGEND
 
 #### 4. The SideBar / Menu
 <p>The sidebar is accessible to all pages apart from the About page as I felt it was not needed there. But this feature allows the user to have more than one navigation system to get around the website. The buttons at the top also act as navigation and have been placed there in case not all platforms or screens may not fit the sidebar on. </p>
+
 ---
+
 ### Testing in Different Browsers
 <p>The two browsers I chose to test my web application in were Chrome (as shown in all previous screenshots), but to ensure that my website was compatible with more than one browser I then went ahead and checked what my website looked like in Edge.</p>
 
