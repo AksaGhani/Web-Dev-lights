@@ -8,14 +8,15 @@
 ---
 ### **ScreenShots:**
 ##### These Screenshots show all of the pages in Full.
+HOME PAGE
 ![Home Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/HomePage.png "Home Page")
-
+ABOUT PAGE
 ![About Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/AboutPage%20FirstHalf.png "About Page 1")
 
 ![About Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/AboutPage%20SecondHalf.png "About Page 2")
-
+GAME PAGE
 ![Game Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/GamePage.png "Game Page")
-
+LEGEND
 ![Legend Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/LegendPage.png "Legend Page")
 ---
 ### **Application Fact Sheet:**
@@ -35,7 +36,7 @@
 
 ##### 2. The Buttons 
 ###### Each page has a similar layout with buttons to act as a navigation bar such as the 'Home' Button, without this functionality the application would not have access to other pages. Therefore, suggesting that any 
-![Navigation Bar]( "Navigation Bar")
+![Navigation Bar](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/NavigationBar.png "Navigation Bar")
 
 ##### 3. The Footer
 ######  The footer contains all of my contact details, and allows the user to have access to all of my contact information from any page within the application. However, I have only added the icons to indicate that the socials can be found on the home page.  
