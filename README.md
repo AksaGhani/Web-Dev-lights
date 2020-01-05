@@ -1,4 +1,4 @@
 # Web-Development-Lights-Game
-##Comp-sci assignment
+## Comp-sci assignment
 
-###YouTube Video:
+### YouTube Video:
