@@ -3,10 +3,7 @@ let lightId2 = 2;
 let lightId3 = 3;
 let lightId4 = 4;
 let lightId5 = 5;
-
-let lightIds = [
-
-]
+let lightId6 = 6;
 
 // which lights?
 for (let currentLightID = 0; currentLightID < 4; currentLightID++)
@@ -14,33 +11,17 @@ for (let currentLightID = 0; currentLightID < 4; currentLightID++)
     togglelight(currentLightID);
 }
 
-function changeColours(element)
+function allLightsColoured()
 {
-    let getState = $.getJSON(getLightURI(element), function (data)
-    {
-        let state = data["state"]["off"];
-        if (state)
-        {
-            state = false;
-        }
-        else
-        {
-            blueLight(lightId1);
-            redLight(lightId2);
-            greenLight(lightId3);
-            yellowLight(lightId4);
-            pinkLight(lightId5);
-        }
-
-        let lightState = {"on":state, "hue" : 46920, "bri":254, "sat":150};
-
-        $.ajax({
-            url: getLightURI(element) + "state/",
-            type: "PUT",
-            data: JSON.stringify(lightState)
-        })
-    });
+    blueLight(lightId1);
+    redLight(lightId2);
+    greenLight(lightId3);
+    pinkLight(lightId4);
+    yellowLight(lightId5);
+    purpleLight(lightId6);
 }
+
+
 function lightSequence()
 {
 // get first light colour
@@ -56,7 +37,7 @@ function lightSequence()
     yellowLight(lightId4);
 }
 
-//change light colours
+//different light colours
 function greenLight(element)
 {
         let lightState = {"on": true, "hue": 25500, "bri": 254, "sat": 150};
@@ -108,8 +89,16 @@ function yellowLight(element)
         data: JSON.stringify(lightState)}
     )
 }
-
-//get lights method
+function purpleLight(element)
+{
+    let lightState = {"on": true, "hue": 50100, "bri": 254, "sat": 200};
+    $.ajax({
+        url:getLightURI(element) + "state/",
+        type: "PUT",
+        data: JSON.stringify(lightState)}
+    )
+}
+//get lights method: Using Shirley's code which has been adjusted
 function getLightURI(element)
 {
     var IP = "http://192.168.0.50/api/";
