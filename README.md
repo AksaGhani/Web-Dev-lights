@@ -14,7 +14,8 @@
 ### **Application Fact Sheet:**
 ##### The application is very simple to use and contains features to make navigation within the website easier for the user. The aim of this project is to act as a sample web application where the user is able to visit the four main pages: Home, About, Game and Legend.
 #### How does the Application work?
-##### The home page contains a brief 
+##### The home page contains a brief explantion as to what the project is and contains my contact information. This page acts as welcome page and introduces the application, it has all the features such as navigation bar and sidebar to allow the user to click onto other pages within the application.
+##### When the About button is clicked the user is redirected to the About page, where there is in depth information about me, including my levels of experience in coding languages(c# and Javascript). 
 #### Key Features of the Web Application
 ##### 1. The Legend Page
 ###### This page is a very important asset to the web application as it explains how the player must play the game, giving a key of what all of the elements within the page mean. 
