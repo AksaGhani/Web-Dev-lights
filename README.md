@@ -49,3 +49,5 @@ LEGEND
 ---
 ### Testing in Different Browsers
 The two browsers I chose to test my web application in were Chrome (as shown in all previous screenshots), but to ensure that my website was compatible with more than one browser I then went ahead and checked what my website looked like in Edge.
+![Home Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/HomePageEdge.png "Home Page - Edge")
+As you can see when the website was opened in Edge, the results were the same as when it was opened in Chrome. 
