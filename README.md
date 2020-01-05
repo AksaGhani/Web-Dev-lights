@@ -8,7 +8,7 @@
 ---
 ### **ScreenShots:**
 ##### These Screenshots show all of the pages in Full.
-![alt text](https:/relative/path/to/AboutPage-FirstHalf.png?raw=true "Home Page")
+![Home Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/HomePage.png "Home Page")
 
 ---
 ### **Application Fact Sheet:**
