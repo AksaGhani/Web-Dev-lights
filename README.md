@@ -31,7 +31,7 @@ LEGEND
 ##### Next to the About button you will find the GAME button, the redirected page will be where the game itslef is located. The main features on this page include the images of light-bulbs which are clickable, as well as the GO, SUBMIT and RESET buttons. The aim of the Game is that the player presses GO, which in turn will present a light sequence in the SMB lab. Once the lights have all turned off the player must click on the correct coloured light-bulbs provided in order to turn the light on the lights in the correct sequence. The player must then click the SUBMIT button in order to see whether they have got it correct or not.
 
 ##### I have also added a warning section to the Game page as it is important to ensure that no harm comes to any of the users whilst playing the game. For example, the warning is for people who may suffer from photosensitive epilepsy, which suggests that epileptic fits may be caused through flashing lights and colours.
-![Warning](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/EpilepsyWarning.png "Warning")
+![Warning](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/EpilepsyWarning.png "Warning Message")
 
 #### Key Features of the Web Application:
 ##### 1. The Legend Page
@@ -47,3 +47,5 @@ LEGEND
 ##### 4. The SideBar / Menu
 ###### The sidebar is accessible to all pages apart from the About page as I felt it was not needed there. But this feature allows the user to have more than one navigation system to get around the website. The buttons at the top also act as navigation and have been placed there in case not all platforms or screens may not fit the sidebar on. 
 ---
+### Testing in Different Browsers
+The two browsers I chose to test my web application in were Chrome (as shown in all previous screenshots), but to ensure that my website was compatible with more than one browser I then went ahead and checked what my website looked like in Edge.
