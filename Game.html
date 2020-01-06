@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
 <title>Aksa - Game</title>
+    <!-- Meta Data -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+
+    <!-- Outsourced StyleSheet links -->
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="styleSheet.css">
-<!-- jquery links for drag and drop functions-->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/jquery-ui.min.js"></script>
+    <!-- Bootstrap JS Files-->
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+
 <!-- my script files -->
-    <script src="Game.js" defer></script>
-    <script src="Other.js"></script>
-    <script src="Lights.js"></script>
+    <script src="Game.js"></script>
+    <script src="js/Other.js"></script>
+    <script src="js/Lights.js"></script>
 </head>
 
 <body class="w3-teal">
@@ -64,30 +77,30 @@
             <!-- Game Buttons -->
             <div class="w3-container w3-card w3-white w3-margin-bottom">
                 <br>
-                <button onclick="lightSequence()" id="goBtn" class="w3-button w3-black w3-xlarge">GO</button> <button id="submitBtn" class="w3-button w3-teal w3-xlarge">SUBMIT</button> <a href="Game.html" style="decoration:none"><button id="resetBtn" class="w3-button w3-grey w3-xlarge">Reset Game</button></a>
+                <button id="goBtn" onclick="lightSequence()" class="w3-button w3-black w3-xlarge">GO</button> <button id="submitBtn" onclick="checkAllOff()" class="w3-button w3-teal w3-xlarge">SUBMIT</button> <a href="Game.html" style="decoration:none"><button onclick="turnAllOff()" id="resetBtn" class="w3-button w3-grey w3-xlarge">Reset Game</button></a>
                 <br><br>
             </div>
-            <section class="draggable-elements">
+
                 <!-- left column Light bulbs -->
             <div class="w3-container w3-white w3-margin-bottom w3-third" style="width:30%">
-                <img id="blue" onclick="blueLight(lightId1)" class="clickable centre w3-round" src="https://www.pinclipart.com/picdir/middle/117-1171869_light-bulb-icon-blue-clipart.png" draggable="true" style="width:40%;" alt="Blue Light-bulb" />
+                <img id="blue" onclick="blueLight(lightId4)" class="clickable centre w3-round" src="https://www.pinclipart.com/picdir/middle/117-1171869_light-bulb-icon-blue-clipart.png" draggable="true" style="width:40%;" alt="Blue Light-bulb" />
                 <br><br>
-                <img id="pink" onclick="pinkLight(lightId2)" class="clickable centre w3-round" src="https://www.iconsdb.com/icons/preview/deep-pink/light-bulb-2-xxl.png" draggable="true" style="width:44%;" alt="Pink Light-bulb" />
+                <img id="pink" onclick="pinkLight(lightId5)" class="clickable centre w3-round" src="https://www.iconsdb.com/icons/preview/deep-pink/light-bulb-2-xxl.png" draggable="true" style="width:44%;" alt="Pink Light-bulb" />
                 <br><br>
-                <img id="green" onclick="greenLight(lightId3)" class="clickable centre w3-round" src="https://www.iconsdb.com/icons/preview/green/light-bulb-2-xxl.png" draggable="true"  style="width:44%;" alt="Green Light-bulb" />
+                <img id="green" onclick="greenLight(lightId6)" class="clickable centre w3-round" src="https://www.iconsdb.com/icons/preview/green/light-bulb-2-xxl.png" draggable="true"  style="width:44%;" alt="Green Light-bulb" />
                 <br>
             </div>
                 <!--Right column Light bulbs -->
                 <div class="w3-container w3-white w3-margin-bottom w3-third" style="width:30%">
                     <br>
-                    <img id="red" onclick="redLight(lightId1)" class="clickable centre w3-round" src="https://www.iconsdb.com/icons/preview/red/light-bulb-2-xxl.png" draggable="false" style="width:44%" alt="Red Light-bulb"/>
+                    <img id="red" onclick="redLight(lightId4)" class="clickable centre w3-round" src="https://www.iconsdb.com/icons/preview/red/light-bulb-2-xxl.png" draggable="false" style="width:44%" alt="Red Light-bulb"/>
                     <br><br>
-                    <img id="orange" onclick="yellowLight(lightId2)" class="clickable centre w3-round" src="https://i.pinimg.com/236x/c2/ec/50/c2ec5019a3fa03add41d58788274b9fb--lightbulbs-logo-ideas.jpg" draggable="false" style="width:44%" alt="Orange Light-bulb"/>
+                    <img id="orange" onclick="yellowLight(lightId5)" class="clickable centre w3-round" src="https://i.pinimg.com/236x/c2/ec/50/c2ec5019a3fa03add41d58788274b9fb--lightbulbs-logo-ideas.jpg" draggable="false" style="width:44%" alt="Orange Light-bulb"/>
                     <br><br>
-                    <img id="purple" onclick="purpleLight(lightId3)" class="clickable centre w3-round" src="https://webstockreview.net/images/lightbulb-clipart-purple-1.png" draggable="false" style="width:44%" alt="Purple Light-bulb"/>
+                    <img id="purple" onclick="purpleLight(lightId6)" class="clickable centre w3-round" src="https://webstockreview.net/images/lightbulb-clipart-purple-1.png" draggable="false" style="width:44%" alt="Purple Light-bulb"/>
                     <br>
                 </div>
-            </section>
+
             <br>
             <!-- Warning section -->
             <div class="w3-container w3-card w3-white w3-margin-bottom" style="width: 50%">
