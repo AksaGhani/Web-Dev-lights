@@ -2,9 +2,7 @@
 ## Comp-sci assignment
 ---
 ### **YouTube Video:**
-<a href="https://youtu.be/VZCc8I82gYU
-" target="_blank"><img src="http://img.youtube.com/vi/VZCc8I82gYU/0.jpg" 
-alt="YouTube Video" width="240" height="180" border="10" /></a>
+<a href="https://youtu.be/VZCc8I82gYU" target="_blank"><img src="http://img.youtube.com/vi/VZCc8I82gYU/0.jpg" alt="YouTube Video" width="240" height="180" border="10" /></a>
 
 ---
 ### **ScreenShots:**
