@@ -8,6 +8,7 @@
     <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="styleSheet.css">
+    <!-- My Script Files -->
     <script src="Game.js" defer></script>
     <script src="js/Other.js"></script>
 </head>
@@ -58,23 +59,26 @@
                 <h3>How To Play</h3>
                 <p>The aim of the game is to turn off all the light bulbs by using the coloured lightbulbs presented.</p>
                 <ol>
-                    <li>First press the  <button id="goBtn" class="w3-button w3-black">GO</button>  button in order to produce a light sequence</li>
+                    <li>Pressing <button id="goBtn" class="w3-button w3-black w3-small">GO</button> turns on lights 4-6</li>
                     <li>The light-bulbs with ID from 4-6 will all turn on, each with a different colour</li>
-                    <li>You must remember the sequence of colours that was produced</li>
-                    <li>The player must then try to switch all of the lights off by clicking the correct coloured light-bulb on the screen</li>
-                    <li>The player does this by clicking on the light-bulb. If the colour clicked does not match the original colour sequence it will change the colour of the light-bulb. But if the correct colour is clicked, the light will turn off.</li>
-                    <li>Once the player thinks they have turned off all the correct lights, they must click the <button id="submitBtn" class="w3-button w3-teal">SUBMIT</button> button </li>
+                    <li>Once the player thinks they have turned off all the correct lights, they must click the <button id="submitBtn" class="w3-button w3-teal w3-small">SUBMIT</button> button </li>
                     <li>If the player was successful at the game, all of the lights will turn green.</li>
-                    <li>In order to refresh the game or start again, the player must click <button onclick="turnAllOff()" id="resetBtn" class="w3-button w3-grey w3-xlarge">Reset Game</button></li>
+                    <li>In order to refresh the game or start again, the player must click <button onclick="turnAllOff()" id="resetBtn" class="w3-button w3-grey w3-small">Reset Game</button></li>
                     <li>Then press Go for the light sequence</li>
                 </ol>
             </div>
          <!-- Key Section -->
             <div class="w3-container w3-card w3-white w3-margin-bottom">
-                <p>These Light-bulbs act as buttons which the user should use to turn the light that colour.</p>
-                <p>In the Game page you'll notice that the light-bulbs have been put into two different columns. Each column represents the light-bulbs in SMB109, where the 1st light-bulb has the ID:1 and the last light-bulb in the column has the light ID:3. This is the same for both columns.</p>
-                <img id="redBulb" onclick="redLight(lightId1)" class="clickable centre w3-round" src="https://www.iconsdb.com/icons/preview/red/light-bulb-2-xxl.png" draggable="false" style="width:15%" alt="Red Light-bulb"/>
-                <p>The light sequence will only be using the lights with ID 4-6, therefore, the player only has a choice of one of two colours for each light bulb. For example, the light sequence will show: blue (light ID 4) , orange (light ID 5), purple (light ID 6). For light ID 1 the player has the option to either choose blue or red. This is the same for the remaining two lights.</p>
+                <img src="Images/Screenshots/LightBulbs.png" style="width: 35%" draggable="false"/>
+                <div class="w3-third w3-white">
+                    <p>The player must choose the correct colour to turn off the light bulb.</p>
+                    <ul>
+                        <li>These light bulbs act as buttons</li>
+                        <li>The blue and red have the ID:4</li>
+                        <li>The pink and yellow have the ID:5</li>
+                        <li>The green and purple have the ID:6</li>
+                    </ul>
+                </div>
             </div>
             <!-- End Main -->
         </div>
@@ -89,7 +93,7 @@
     <i class="fa fa-snapchat w3-hover-opacity"></i>
     <i class="fa fa-pinterest-p w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
-    <p>Template by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    <p>On the About Page <a href="About.html" target="_blank"></a></p>
 </footer>
 </div>
 </div>
