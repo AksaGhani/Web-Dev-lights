@@ -2,27 +2,28 @@
 ## Comp-sci assignment
 ---
 ### **YouTube Video:**
-
-
+<a href="https://youtu.be/VZCc8I82gYU
+" target="_blank"><img src="http://img.youtube.com/vi/VZCc8I82gYU/0.jpg" 
+alt="YouTube Video" width="240" height="180" border="10" /></a>
 
 ---
 ### **ScreenShots:**
 ##### These Screenshots show all of the pages in Full.
 
 ### HOME PAGE
-![Home Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/HomePage.png "Home Page")
+![Home Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Images/Screenshots/HomePage.png "Home Page")
 
 ### ABOUT PAGE
-![About Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/AboutPage%20FirstHalf.png "About Page 1")
-![About Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/AboutPage%20SecondHalf.png "About Page 2")
+![About Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Images/Screenshots/AboutPage%20FirstHalf.png "About Page 1")
+![About Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Images/Screenshots/AboutPage%20SecondHalf.png "About Page 2")
 
 ### GAME PAGE
-![Game Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/GamePage.png "Game Page")
+![Game Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Images/Screenshots/GamePage.png "Game Page")
 
 If you were to scroll down... the rest of the light-bulbs would appear, giving a larger range of colours for the user to select from.
 
 ### LEGEND
-![Legend Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/LegendPage.png "Legend Page")
+![Legend Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Images/Screenshots/LegendPage.png "Legend Page")
 
 ---
 
@@ -39,7 +40,7 @@ If you were to scroll down... the rest of the light-bulbs would appear, giving a
 
 <p> I have also added a warning section to the Game page as it is important to ensure that no harm comes to any of the users whilst playing the game. For example, the warning is for people who may suffer from photosensitive epilepsy, which suggests that epileptic fits may be caused through flashing lights and colours.</p>
 
-![Warning](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/EpilepsyWarning.png "Warning Message")
+![Warning](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Images/Screenshots/EpilepsyWarning.png "Warning Message")
 
 #### Key Features of the Web Application:
  1. The Legend Page
@@ -48,7 +49,7 @@ If you were to scroll down... the rest of the light-bulbs would appear, giving a
 #### 2. The Buttons 
 <p> Each page has a similar layout with buttons to act as a navigation bar such as the 'Home' Button, without this functionality the application would not have access to other pages. Below is a screenshot of the buttons and how I have laid them out at the top of the page, this structure is replicated throughout the application.</p>
 
-![Navigation Bar](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Screenshots/NavigationBar.png "Navigation Bar")
+![Navigation Bar](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Images/Screenshots/NavigationBar.png "Navigation Bar")
 
 #### 3. The Footer
 <p>The footer contains all of my contact details, and allows the user to have access to all of my contact information from any page within the application. However, I have only added the icons to indicate that the socials can be found on the home page.  </p>
@@ -61,7 +62,7 @@ If you were to scroll down... the rest of the light-bulbs would appear, giving a
 ### Testing in Different Browsers
 <p>The two browsers I chose to test my web application in were Chrome (as shown in all previous screenshots), but to ensure that my website was compatible with more than one browser I then went ahead and checked what my website looked like in Edge.</p>
 
-![Home Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/HomePageEdge.png "Home Page - Edge")
+![Home Page](https://github.com/AksaGhani/Web-Dev---lights-/blob/master/Images/Screenshots/HomePageEdge.png "Home Page - Edge")
 
 <p> As you can see when the website was opened in Edge, the results were the same as when it was opened in Chrome. I was very pleased with the outcome, as it suggested that there were no bugs which may have needed my attention in order to fix them.</p>
 
